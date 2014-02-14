@@ -1,0 +1,15 @@
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+author: 
+  name: 符浩
+  email: fuhao715@gmail.com
+  link: http://fuhao715.com
+  enlink: http://en.fuhao715.com
+title: 符浩的博客 
+locals:
+  tags: 标签
+  about: 关于
+active: 技术
+subscribe_rss: /pages/atom.xml
+markdown: redcarpet
+
