@@ -32,6 +32,7 @@ print filtered_and_squared
 # [1, 16, 100, 4, 9]
 ```
 很简单是吧？但是这就会有4行代码，两层嵌套外加一个完全不必要的append操作。首先我们想到的是使用filter、lambda和map函数，则能够将代码大大简化：
+
 ```python
 num = [1, 4, -5, 10, -7, 2, 3, -1]
 filtered_and_squared = map(lambda x: x ** 2, filter(lambda x: x > 0, num))
@@ -39,7 +40,9 @@ print filtered_and_squared
  
 # [1, 16, 100, 4, 9]
 ```
+
 如果我们使用列表推导表达式呢？将会更大化简化代码：
+
 ```python
 num = [1, 4, -5, 10, -7, 2, 3, -1]
 filtered_and_squared = [ x**2 for x in num if x > 0]
@@ -47,6 +50,7 @@ print filtered_and_squared
  
 # [1, 16, 100, 4, 9]
 ```
+
 ![列表推导表达式讲解][1]
 > * 迭代器(iterator)遍历输入序列num的每个成员x
 > * 断言式判断每个成员是否大于零
@@ -73,6 +77,7 @@ print filtered_and_squared
 针对上面的问题，生成器(Generator)能够很好的解决。生成器表达式不会一次将整个列表加载到内存之中，而是生成一个生成器对象(Generator objector)，所以一次只加载一个列表元素。
 
 生成器表达式同列表推导式有着几乎相同的语法结构，区别在于生成器表达式是被*** 圆括号包围，而不是方括号***：
+
 ```python
 num = [1, 4, -5, 10, -7, 2, 3, -1]
 filtered_and_squared = ( x**2 for x in num if x > 0 )
@@ -85,7 +90,9 @@ for item in filtered_and_squared:
  
 # 1, 16, 100 4,9
 ```
+
 这比列表推导效率稍微提高一些，
+
 ```python
 num = [1, 4, -5, 10, -7, 2, 3, -1]
  
@@ -105,6 +112,7 @@ g = list(square_generator(0))
 print g
 # [1, 16, 100, 4, 9]
 ```
+
 除非特殊的原因，应该经常在代码中使用生成器表达式。但除非是面对非常大的列表，否则是不会看出明显区别的。
 
 
