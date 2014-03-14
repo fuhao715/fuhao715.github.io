@@ -52,7 +52,7 @@ print filtered_and_squared
 # [1, 16, 100, 4, 9]
 ```
 
-![列表推导表达式讲解][1]
+![Comprehensions](/public/upload/Python_Comprehensions.jpg)
 > * 迭代器(iterator)遍历输入序列num的每个成员x
 > * 断言式判断每个成员是否大于零
 > * 如果成员大于零，则被交给输出表达式，平方之后成为输出列表的成员。
@@ -115,7 +115,3 @@ print g
 ```
 
 除非特殊的原因，应该经常在代码中使用生成器表达式。但除非是面对非常大的列表，否则是不会看出明显区别的。
-
-
-
-  [1]: http://jbcdn2.b0.upaiyun.com/2014/02/8db6c2a8d716d7788d0e526c921cc504.jpg
