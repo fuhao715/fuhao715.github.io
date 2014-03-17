@@ -1,4 +1,14 @@
-# Go，互联网时代的C
+---
+layout: post
+title: Go，互联网时代的C
+category: 技术
+tags: golang
+description: Go，互联网时代的C
+---
+
+
+
+## Go，互联网时代的C
 
 ------
 
