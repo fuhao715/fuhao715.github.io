@@ -76,7 +76,9 @@ Go语言在Go1版本上支持Windows, 苹果Mac OS X, Linux和FreeBSD操作系�
 
 ## 开发工具
 * LiteIDE是一款专门为Go语言开发的跨平台轻量级集成开发环境（IDE），由visualfc编写
-LiteIDE主要特点：
+
+LiteIDE主要特点： 
+
 > * 支持主流操作系统Windows、Linux、MacOS X  
 > * Go编译环境管理和切换，管理和切换多个Go编译环境，支持Go语言交叉编译  
 > * 与Go标准一致的项目管理方式：基于GOPATH的包浏览器，基于GOPATH的编译系统，基于GOPATH的Api文档检索  
@@ -85,6 +87,7 @@ LiteIDE主要特点：
 > * Go语言文档查看和Api快速检索  
 
 其他特征：  
+
 > * 支持多国语言界面显示  
 > * 完全插件体系结构  
 > * 支持编辑器配色方案    
