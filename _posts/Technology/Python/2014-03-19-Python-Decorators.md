@@ -67,12 +67,14 @@ countdown(100000)
 
 讲解：
 > * 装饰器即如下描述
+
 ```python
 @timethis
 def countdown(n):
 ```
 
 > * 上述语法糖即表示在编译器执行时分别执行如下步骤：
+
 ```python
 def countdown(n):
     ...
