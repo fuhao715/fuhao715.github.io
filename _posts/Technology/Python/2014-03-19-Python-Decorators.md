@@ -35,6 +35,7 @@ def func_method(n):
 
 下面我们将用装饰器做一些更典型的操作：在不改变函数内部逻辑计算函数执行时间,以及在函数执行前后打印log。
 这种在代码运行期间动态增加功能的方式，称之为“装饰器”（Decorator）。
+
 ```python
 import time
 from functools import wraps
@@ -127,6 +128,7 @@ print countdown.__name__
 为避免上述问题需要把原始函数的__name__等属性复制到wrapper()函数中，否则，有些依赖函数签名的代码执行就会出错。
 
 不需要编写wrapper.__name__ = func.__name__这样的代码，Python内置的functools.wraps就是干这个事的，所以，一个完整的decorator的写法如下：
+
 ```python
 import functools
 
