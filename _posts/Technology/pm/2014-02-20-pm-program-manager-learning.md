@@ -18,7 +18,7 @@ description: 项目管理总结
 
 	3 质量：软件功能完整吗？软件操作方便吗？运行结果正确吗？运行效率够快吗？软件代码符合规范吗？客户用起来满意吗？
 
-![](file:///C:/Users/fuhao/Desktop/PM/threeTarget.png)
+![threeTarget](/public/upload/threeTarget.png)
 
 	成本 = 范围 × 质量 = 时间 × 资源投入
 	●项目范围、质量、时间和资源投入都与项目成本成正比。
@@ -35,7 +35,7 @@ description: 项目管理总结
 ================================  
 1.管理思维VS技术思维 
 --- 
-![](file:///C:/Users/fuhao/Desktop/PM/techVSmanage.png)
+![techVSmanage](/public/upload/techVSmanage.png)
 
 项目管理里有个很重要的概念：做项目一定要进行利益相关者分析。  
 管理软件项目的核心有两个，一个是管需求，另一个就是管人。你一定得关注你的团队、你的上级、你的领导、你的客户、你的供应商，以及下包商，还有相关监管部门和合作伙伴，所有跟项目有关的这些人脑子里想什么，你得关注，你得琢磨。每个人都有自己的小算盘，每个组织、机构更是有自己的小算盘。通过平时和他们多方面的接触，在接触的时候观察他们。首先你的头脑里要有一个概念，给项目里所有的人定位，这些人究竟是支持你的、对你中立的，还是反对你的。分析的基础就是想清楚他们在项目里想获得什么利益，这个项目会不会对他们的利益有损害。
@@ -43,7 +43,7 @@ description: 项目管理总结
 2.PMI知识体系模型
 ---------
 PMI将项目经理应具备的知识和技术分为五类，即：项目管理知识体系，应用领域知识、标准与规章制度，理解项目环境，通用管理知识与技能，人际关系技能，如下图所示：
-![](file:///C:/Users/fuhao/Desktop/PM/o_PMI.png)
+![o_PMI](/public/upload/o_PMI.png)
 
 ** 麦克利兰的素质模型 **
 
@@ -154,7 +154,7 @@ Robert hogan和Rodney B.Warrenfeltz研究指出管理人员的素质可以分为
 --------------------------
 
 这就是项目管理的九大领域：整合管理、范围管理（做什么）、时间管理（什么时候做完）、费用管理（花多少钱）、质量管理（做成什么样）、人力资源管理（谁来做）、沟通管理（同意思想和行动）、风险管理（可能会出什么问题）、采购管理（做不了请别人做）。
-![](file:///C:/Users/fuhao/Desktop/PM/model.png)
+![model](/public/upload/model.png)
 项目管理好像一头大象，将其大卸九块之后，要装进冰箱就容易多了。
 
 九大领域(管理对象维度)：
@@ -186,12 +186,12 @@ Robert hogan和Rodney B.Warrenfeltz研究指出管理人员的素质可以分为
 	控制：做对了没有
 	收尾：做完了收工
 2. 四十二个过程 
-	![](file:///C:/Users/fuhao/Desktop/PM/manaProcess.png)   
+	![manaProcess](/public/upload/manaProcess.png)   
 
 9.项目监管过程   
 ---------------------------
 监控过程  
-![](file:///C:/Users/fuhao/Desktop/PM/monitor.png)
+![monitor](/public/upload/monitor.png)
 
 10.管理中心准则
 ---------------------------------------
