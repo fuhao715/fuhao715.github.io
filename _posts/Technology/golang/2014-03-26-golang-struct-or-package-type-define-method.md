@@ -253,9 +253,9 @@ func main() {
 
 
 
-golang-python学习心得 
-微信公众号：golang-python
-个人微信ID：fuhao1121  
+golang-python学习心得   
+微信公众号：golang-python  
+个人微信ID：fuhao1121    
 网址：http://fuhao715.github.io  
 QQ：243312452   
 编程学习心得轻松学编程   
