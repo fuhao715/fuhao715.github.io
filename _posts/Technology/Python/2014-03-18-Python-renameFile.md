@@ -29,13 +29,15 @@ for file in os.listdir(path):
 很简单是吧？但是这就会有6行代码，实现日常的小需求：
 
 
-#     golang-python学习心得     
-#微信ID：fuhao1121  
+-----------------------------------------------
+golang-python学习心得   
+微信公众号：golang-python  
+个人微信ID：fuhao1121    
 网址：http://fuhao715.github.io  
 QQ：243312452   
 编程学习心得轻松学编程   
 回复:『 p 』查看python课程回复  
 回复:『 g 』查看golang课程回复  
-回复:『 t 』查看习题回复  
+回复:『 m 』查看项目管理  
 回复:『 w 』查看其他文章   
 点击"阅读全文"进入http://fuhao715.github.io  
