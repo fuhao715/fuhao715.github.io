@@ -73,8 +73,9 @@ func main() {
 > * 务必记得 make 仅适用于 map，slice 和 channel，并且返回的不是指针。应当用 new获得特定的指针。
 
 
-#     golang-python学习心得     
-#微信ID：fuhao1121  
+golang-python学习心得 
+微信公众号：golang-python
+个人微信ID：fuhao1121  
 网址：http://fuhao715.github.io  
 QQ：243312452   
 编程学习心得轻松学编程   
