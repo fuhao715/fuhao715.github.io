@@ -11,7 +11,7 @@ description: golang中结构体的初始化方法(new方法)
 
 ## 自定义一个结构体
 
-```golang
+```
 type Vertex struct {
     X, Y float64
 }
@@ -19,7 +19,7 @@ type Vertex struct {
 
 ## 初始化方法-指针：
 
-```golang
+```
 rect1 := new(Vertex )
 rect2 := &Vertex {}
 rect3 := &Vertex {1, 2}
@@ -30,7 +30,7 @@ rect4 := &Vertex {X:100, Y:200}
 
 ## 初始化方法-类型实例
 
-```golang
+```
 a := Rect{}
 b := Rect{3, 4}
 c := Rect{X=5, Y=6}
@@ -41,7 +41,7 @@ c := Rect{X=5, Y=6}
 ## 区别 
 下面这个例子能展现之间区别：
 
-```golang
+```
 package main
 import "fmt"
 
